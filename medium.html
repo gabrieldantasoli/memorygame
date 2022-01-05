@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="shortcut icon" href="imgs/memory.icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>MEMORY GAME</title>
+  </head>
+  <body onload="timeTostart()">
+    <header>
+      <h1>MODE MEDIUM</h1>
+      <p>How far can you go?</p>
+    </header>
+   
+    <div class="score">
+      <table>
+        <tr>
+          <td>SCORE</td>
+          <td id="scoree">00</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="but" id="butt">
+      <a href="medium.html"><button id="resetMedium" class="resetbut">RESET</button></a>
+    </div>
+    
+    <div id="count1">
+      <h2>STARTING IN</h2>
+      <h2 id="count"></h2>
+    </div>
+    
+    <div id="mode2">
+      <div id="m21"></div>
+      <div id="m22"></div>
+      <div id="m23"></div>
+      <div id="m24"></div>
+      <div id="m25"></div>
+      <div id="m26"></div>
+      <div id="m27"></div>
+      <div id="m28"></div>
+      <div id="m29"></div>
+    </div>
+   
+    <div class="ranking">
+      <table>
+        <tr>
+          <td id="name1" class="name">GABRIELDAN</td>
+          <td id="points1" class="pont">00</td>
+          <td class="medal"><img src="imgs/gold.png" alt="gold" /></td>
+        </tr>
+        <tr>
+          <td id="name2" class="name">----------</td>
+          <td id="points2" class="pont">00</td>
+          <td class="name"><img src="imgs/silver.png" alt="silver" /></td>
+        </tr>
+        <tr>
+          <td id="name3" class="name">----------</td>
+          <td id="points3" class="pont">00</td>
+          <td class="name"><img src="imgs/bronze.png" alt="bronze" /></td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="home">
+      <a href="Index.html"><img src="imgs/home.png" alt="home" /></a>
+    </div>
+    
+    <footer>
+      <p>Developed by : Gabriel Dantas</p>
+    </footer>
+    <script type="text/javascript" charset="utf-8" src="medium.js"></script>
+  </body>
+</html>
